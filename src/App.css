@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* 다크모드 사용 */
+@custom-variant dark (&:where(.dark, .dark *));
